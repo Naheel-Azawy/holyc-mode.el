@@ -1,0 +1,8 @@
+
+* holyc-mode.el
+Emacs major mode for Temple OS's HolyC programming language.
+
+This work is still incomplete. Check the TODO list.
+
+** Licenses
+GPL-3
