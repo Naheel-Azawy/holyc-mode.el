@@ -72,7 +72,10 @@
   "Major mode for editing HolyC files"
   (setq-local font-lock-defaults '((holyc-font-lock-keywords))))
 
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.HC\\'" . holyc-mode))
+
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.HH\\'" . holyc-mode))
 
 (provide 'holyc-mode)
